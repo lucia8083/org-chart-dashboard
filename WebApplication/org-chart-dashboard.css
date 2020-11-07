@@ -1,0 +1,178 @@
+div.orgChart {
+  margin: 10px;
+  padding: 26px;
+}
+
+div.orgChart div.node label.position-label {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+div.orgChart div.departmentnode label.position-label {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: center;
+}
+
+div.orgChart div.orgnode label.position-label {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+div.orgChart ul {
+  list-style: none;
+  margin: 4px;
+  padding: 0px;
+  font-size: 0.8em;
+  text-align: left;
+}
+
+div.orgChart ul.stack,
+div.orgChart ul.stack ul {
+  text-align: center;
+}
+
+div.orgChart table {
+  width: 100%;
+  height: 100%;
+}
+
+div.orgChart tr.lines {
+  margin-top: -20px;
+}
+
+div.orgChart tr.lines td.line {
+  width: 2px;
+  height: 40px;
+}
+
+div.orgChart tr.lines td.top {
+  border-top: 2px solid black;
+}
+
+div.orgChart tr.lines td.left {
+  border-right: 1px solid black;
+}
+
+div.orgChart tr.lines td.first-left {
+  border-left: 2px solid transparent;
+}
+
+div.orgChart tr.lines td.first-right {
+  border-top-left-radius: 8px;
+  border-left: 2px solid black;
+}
+
+div.orgChart tr.lines td.last-left {
+  border-right: 2px solid black;
+  border-top-right-radius: 8px;
+}
+
+div.orgChart tr.lines td.right {
+  border-left: 1px solid black;
+}
+
+div.orgChart tr.lines td.last-right {
+  border-left: 2px solid transparent;
+}
+
+div.orgChart tr.lines td.half {
+  width: 50%;
+}
+
+div.orgChart td {
+  text-align: center;
+  vertical-align: top;
+  padding: 0px 2px;
+}
+
+div.orgChart div.node {
+  display: inline-block;
+  background: #115E2F;
+  text-align: center;
+  position: relative;
+  width: 120px;
+  padding: 5px 15px 5px 15px;
+}
+
+div.orgChart div.departmentnode {
+  display: inline-block;
+  background: #2EB763;
+  text-align: left;
+  position: relative;
+  border-radius: 8px;
+  height: 32px;
+  padding: 10px 15px 10px 15px;
+}
+
+div.orgChart div.orgnode {
+  display: inline-block;
+  background: #EBEBEB;
+  text-align: left;
+  position: relative;
+  border-radius: 8px;
+  height: 30px;
+  padding: 5px 15px 5px 15px;
+}
+
+div.node label.manager-label {
+  display: inline-block;
+  color: #424B55;
+  height: 21px;
+  border: 1px solid #e1e1e1;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 12px;
+  background: rgba(253, 253, 253, 0.6);
+  white-space: nowrap;
+  position: relative;
+  top: 32px;
+  left: -16px;
+}
+
+
+div.departmentnode label.manager-label {
+  display: inline-block;
+  color: #424B55;
+  height: 21px;
+  border: 1px solid #e1e1e1;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 12px;
+  background: rgba(253, 253, 253, 0.6);
+  white-space: nowrap;
+  position: relative;
+  top: 18px;
+  left: -16px;
+}
+
+
+div.orgnode label.manager-label {
+  display: inline-block;
+  color: #424B55;
+  height: 21px;
+  border: 1px solid #e1e1e1;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 12px;
+  background: rgba(253, 253, 253, 0.6);
+  white-space: nowrap;
+  position: relative;
+  top: 15px;
+  left: -16px;
+}
