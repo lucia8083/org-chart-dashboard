@@ -3,7 +3,7 @@ div.orgChart {
   padding: 26px;
 }
 
-div.orgChart div.node label.position-label {
+div.orgChart div.node div.position-label {
   color: white;
   font-weight: bold;
   font-size: 30px;
@@ -15,7 +15,7 @@ div.orgChart div.node label.position-label {
   overflow: hidden;
 }
 
-div.orgChart div.departmentnode label.position-label {
+div.orgChart div.departmentnode div.position-label {
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -25,7 +25,7 @@ div.orgChart div.departmentnode label.position-label {
   text-align: center;
 }
 
-div.orgChart div.orgnode label.position-label {
+div.orgChart div.orgnode div.position-label {
   color: black;
   font-weight: bold;
   font-size: 18px;
@@ -140,24 +140,22 @@ div.orgChart div.orgnode {
   border-radius: 12px;
   background: rgba(253, 253, 253, 0.6);
   white-space: nowrap;
+}
+
+div.node div.manager-label-position {
   position: relative;
-  top: 32px;
+  top: 31px;
   left: -16px;
 }
 
-div.node label.manager-label-position {
+div.departmentnode div.manager-label-position {
   position: relative;
-  top: 32px;
+  top: 17px;
   left: -16px;
 }
 
-div.departmentnode label.manager-label-position {
+div.orgnode div.manager-label-position {
   position: relative;
-  top: 18px;
-  left: -16px;
-}
-
-div.orgnode label.manager-label-position {
-  top: 15px;
+  top: 14px;
   left: -16px;
 }

@@ -132,7 +132,7 @@
             var titleString = '',
                 managerString = '';
             if (typeof data.name !== 'undefined') {
-                titleString = '<label class="position-label">' + self.data.name + '</label>';
+                titleString = '<div class="position-label">' + self.data.name + '</div>';
             }
             var nodeClass = "orgnode";
             if (this.data.parent == 1) {
@@ -141,7 +141,7 @@
                 nodeClass = "node"
             }
             if (typeof data.manager !== 'undefined') {
-                managerString = "<label class='manager-label manager-label-position'>" + self.data.manager + '</label>';
+                managerString = "<div class='manager-label manager-label-position'>" + self.data.manager + '</div>';
             }
 
             return "<div class='" + nodeClass + "' node-id='" + this.data.id + "'>" + titleString + managerString + "</div>";
