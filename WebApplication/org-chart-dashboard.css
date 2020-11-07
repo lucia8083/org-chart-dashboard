@@ -23,6 +23,8 @@ div.orgChart div.departmentnode div.position-label {
   text-overflow: ellipsis;
   overflow: hidden;
   text-align: left;
+  position: relative;
+  top: 10px;
 }
 
 div.orgChart div.orgnode div.position-label {
@@ -116,8 +118,7 @@ div.orgChart div.departmentnode {
   text-align: left;
   position: relative;
   border-radius: 8px;
-  height: 32px;
-  padding: 10px 15px 10px 15px;
+  padding: 5px 15px 5px 15px;
 }
 
 div.orgChart div.orgnode {
@@ -155,7 +156,7 @@ div.node div.manager-label-position {
 
 div.departmentnode div.manager-label-position {
   position: relative;
-  top: 13px;
+  top: 26px;
   left: -16px;
 }
 
