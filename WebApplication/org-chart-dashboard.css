@@ -8,7 +8,7 @@ div.orgChart div.node div.position-label {
   font-weight: bold;
   font-size: 30px;
   display: inline-block;
-  text-align: center;
+  text-align: left;
   position: relative;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -22,7 +22,7 @@ div.orgChart div.departmentnode div.position-label {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  text-align: center;
+  text-align: left;
 }
 
 div.orgChart div.orgnode div.position-label {
@@ -133,29 +133,34 @@ div.orgChart div.orgnode {
 .manager-label {
   display: inline-block;
   color: #424B55;
-  height: 21px;
+  height: 17px;
   border: 1px solid #e1e1e1;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 12px;
   background: rgba(253, 253, 253, 0.6);
   white-space: nowrap;
+  font-size:12px;
 }
 
 div.node div.manager-label-position {
   position: relative;
   top: 31px;
   left: -16px;
+  width: 130px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 div.departmentnode div.manager-label-position {
   position: relative;
-  top: 17px;
+  top: 13px;
   left: -16px;
 }
 
 div.orgnode div.manager-label-position {
   position: relative;
-  top: 14px;
+  top: 10px;
   left: -16px;
 }
