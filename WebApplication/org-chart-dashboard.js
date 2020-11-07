@@ -141,7 +141,7 @@
                 nodeClass = "node"
             }
             if (typeof data.manager !== 'undefined') {
-                managerString = "<label class='manager-label'>" + self.data.manager + '</label>';
+                managerString = "<label class='manager-label manager-label-position'>" + self.data.manager + '</label>';
             }
 
             return "<div class='" + nodeClass + "' node-id='" + this.data.id + "'>" + titleString + managerString + "</div>";

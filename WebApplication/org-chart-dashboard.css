@@ -130,7 +130,7 @@ div.orgChart div.orgnode {
   padding: 5px 15px 5px 15px;
 }
 
-div.node label.manager-label {
+.manager-label {
   display: inline-block;
   color: #424B55;
   height: 21px;
@@ -145,34 +145,19 @@ div.node label.manager-label {
   left: -16px;
 }
 
+div.node label.manager-label-position {
+  position: relative;
+  top: 32px;
+  left: -16px;
+}
 
-div.departmentnode label.manager-label {
-  display: inline-block;
-  color: #424B55;
-  height: 21px;
-  border: 1px solid #e1e1e1;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 12px;
-  background: rgba(253, 253, 253, 0.6);
-  white-space: nowrap;
+div.departmentnode label.manager-label-position {
   position: relative;
   top: 18px;
   left: -16px;
 }
 
-
-div.orgnode label.manager-label {
-  display: inline-block;
-  color: #424B55;
-  height: 21px;
-  border: 1px solid #e1e1e1;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 12px;
-  background: rgba(253, 253, 253, 0.6);
-  white-space: nowrap;
-  position: relative;
+div.orgnode label.manager-label-position {
   top: 15px;
   left: -16px;
 }
